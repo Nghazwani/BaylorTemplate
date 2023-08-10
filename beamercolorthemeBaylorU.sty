@@ -1,0 +1,36 @@
+% Copyright 2014 by Jon Wilson <jsw@fnal.gov>
+% as a modification of beamercolorthemewolverine, which was
+% Copyright 2004 by Madhusudan Singh <madhusudan.singh@gmail.com>
+%
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+
+\mode<presentation>
+
+\usepackage{colorspace}
+
+%\definespotcolor{BaylorGreen}{PANTONE 3435 U}{.93,.10,.90,.70}
+%\definespotcolor{UniversityGold}{PANTONE 116 U}{0,.29,1,0}
+%\definespotcolor{support}{PANTONE 362 U}{.60,.01,.93,.10}
+\definecolor{BaylorGreen}{cmyk}{.93,.10,.90,.70}
+\definecolor{UniversityGold}{cmyk}{0,.29,1,0}
+%\definecolor{support}{cmyk}{.60,.01,.93,.10}
+\definecolor{support}{cmyk}{.17,.24,.25,.49}
+
+\setbeamercolor{alerted text}{fg=red}
+\setbeamercolor*{palette primary}{fg=white,bg=BaylorGreen}
+\setbeamercolor*{palette secondary}{fg=white,bg=support}
+\setbeamercolor*{palette tertiary}{fg=black,bg=UniversityGold}
+
+\setbeamercolor*{titlelike}{parent=palette primary}
+
+\setbeamercolor{itemize item}{fg=BaylorGreen}
+\setbeamercolor{itemize subitem}{fg=support}
+\setbeamercolor{enumerate item}{fg=BaylorGreen}
+\setbeamercolor{enumerate subitem}{fg=support}
+
+\setbeamercolor{block title}{parent=palette primary}
+\setbeamercolor{block body}{parent=palette tertiary}
+
+\mode
+<all>

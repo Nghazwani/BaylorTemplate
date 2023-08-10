@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{Section Title}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Subsection Title}{2}{0}{1}

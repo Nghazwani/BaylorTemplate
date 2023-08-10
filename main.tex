@@ -1,0 +1,102 @@
+% This template works with lualatex from TeXLive 2022. A copy of this template should preserve that selection, but if not, you change it in the menu.
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{naturalnames}{hyperref}
+\documentclass[aspectratio=169]{beamer}
+\usepackage{xspace}
+\usepackage{fontsetup}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\sisetup{detect-all,separate-uncertainty=true,tight-spacing=true}
+\DeclareSIUnit\clight{\text{\ensuremath{c}}}
+\usepackage{appendixnumberbeamer}
+\usepackage{pgf}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes,backgrounds,shapes.callouts}
+
+\newcommand{\abs}[1]{\ensuremath{\left\lvert #1 \right\rvert}\xspace}
+\newcommand{\gevM}[1]{\SI[per-mode=symbol]{#1}{\giga\eV\per\clight\squared}\xspace}
+
+% Set parameters for \includegraphics
+\setkeys{Gin}{width=\linewidth,keepaspectratio}
+
+\useinnertheme[shadow]{rounded}
+\usecolortheme{BaylorU}
+\useoutertheme{infolines3}
+\setbeamertemplate{itemize items}[default]
+\setbeamertemplate{enumerate items}[default]
+
+\title{This Presentation}
+\author{noorah ghazwani}
+\date[Group Mtg. 2023-07-20]{Meeting\\July 202, 2023}
+\institute[BU]{Baylor University}
+
+\begin{document}
+
+\maketitle
+
+\section{Section Title}
+\subsection{Subsection Title}
+
+\begin{frame}[fragile]
+\begin{verbatim}
+EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins.png
+\end{verbatim}
+ \includegraphics[width=0.495\textwidth]{EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins.png}
+ \includegraphics[width=0.495\textwidth]{EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins2.png}
+\end{frame}
+
+%%\include{plots}
+
+%% \frame{
+%% \begin{figure}
+%% \includegraphics[width=0.495\textwidth]{plots/EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins.png}
+%% \includegraphics[width=0.495\textwidth]{plots2/EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins.png}
+%% \end{figure}}
+
+%% \frame{\begin{figure}
+%% \includegraphics[width=0.495\textwidth]{plots/EBFULL_CLUSSIZE_0005_0020_MuOverBins.png}
+%% \includegraphics[width=0.495\textwidth]{plots2/EBFULL_CLUSSIZE_0005_0020_MuOverBins.png}
+%% \end{figure}}
+
+
+%% \begin{figure}
+%% \includegraphics[width=0.495\textwidth]{EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins.png}
+%% \includegraphics[width=0.495\textwidth]{EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins2.png}
+%% \end{figure}
+
+%% \begin{figure}
+%% \includegraphics[width=0.495\textwidth]{EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins.png}
+%% \includegraphics[width=0.495\textwidth]{EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins2.png}
+%% \end{figure}
+
+%% \begin{figure}
+%% \includegraphics[width=0.495\textwidth]{EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins.png}
+%% \includegraphics[width=0.495\textwidth]{EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins2.png}
+%% \end{figure}
+
+%% \section{Section Title}
+
+%% \subsection{Subsection Title}
+
+
+%% \frame{
+%% \begin{columns}
+%% \column{0.5\textwidth}
+%% \begin{figure}{figure1}
+%% \includegraphics[height=1\textheight]{EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins.png}
+%% \caption{Caption}
+%% \label{fig:enter-label}
+%% \end{figure}
+
+%% \column{0.5\textwidth}
+%% \begin{figure}{figure2}
+%% \includegraphics[height=1\textheight]{EBFULL_CLUSSIZE_0005_0020_EffSigmaOverBins2.png}
+%% \caption{Caption}
+%% \label{fig:enter-label}
+%% \end{figure}
+%% \end{columns}
+%% }
+
+\end{document}
+
